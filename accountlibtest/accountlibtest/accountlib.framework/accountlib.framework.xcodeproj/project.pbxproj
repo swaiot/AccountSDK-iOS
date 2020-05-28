@@ -1,0 +1,149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4D3354F4247BB7380097871B /* _CodeSignature */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _CodeSignature; sourceTree = "<group>"; };
+		4D3354F5247BB7380097871B /* accountlib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = accountlib; sourceTree = "<group>"; };
+		4D3354F6247BB7380097871B /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		4D3354F7247BB7380097871B /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Headers; sourceTree = "<group>"; };
+		4D3354F8247BB7380097871B /* Modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Modules; sourceTree = "<group>"; };
+		4D3354F9247BB7380097871B /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		4D3354FA247BB7380097871B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4D3354EE247BB7380097871B = {
+			isa = PBXGroup;
+			children = (
+				4D3354F4247BB7380097871B /* _CodeSignature */,
+				4D3354F5247BB7380097871B /* accountlib */,
+				4D3354F6247BB7380097871B /* Makefile.am */,
+				4D3354F7247BB7380097871B /* Headers */,
+				4D3354F8247BB7380097871B /* Modules */,
+				4D3354F9247BB7380097871B /* Makefile.in */,
+				4D3354FA247BB7380097871B /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		4D3354F3247BB7380097871B /* accountlib.framework */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 4D3354FB247BB7380097871B /* Build configuration list for PBXLegacyTarget "accountlib.framework" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/mark/Library/Developer/Xcode/DerivedData/accountlib-ecxiqkzdozfutiedmtirkamuwijo/Build/Products/Debug-iphonesimulator/accountlib.framework";
+			dependencies = (
+			);
+			name = accountlib.framework;
+			passBuildSettingsInEnvironment = 1;
+			productName = accountlib.framework;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		4D3354EF247BB7380097871B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4D3354F2247BB7380097871B /* Build configuration list for PBXProject "accountlib.framework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D3354EE247BB7380097871B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3354F3247BB7380097871B /* accountlib.framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4D3354F0247BB7380097871B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		4D3354F1247BB7380097871B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		4D3354FC247BB7380097871B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = accountlib.framework;
+			};
+			name = Debug;
+		};
+		4D3354FD247BB7380097871B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = accountlib.framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D3354F2247BB7380097871B /* Build configuration list for PBXProject "accountlib.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3354F0247BB7380097871B /* Debug */,
+				4D3354F1247BB7380097871B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3354FB247BB7380097871B /* Build configuration list for PBXLegacyTarget "accountlib.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3354FC247BB7380097871B /* Debug */,
+				4D3354FD247BB7380097871B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D3354EF247BB7380097871B /* Project object */;
+}

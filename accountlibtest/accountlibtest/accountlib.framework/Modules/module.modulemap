@@ -1,0 +1,6 @@
+framework module accountlib {
+  umbrella header "accountlib.h"
+
+  export *
+  module * { export * }
+}
